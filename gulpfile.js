@@ -4,13 +4,13 @@ var gulp = require('gulp'),
     webserver = require('gulp-webserver');
 
     gulp.task('sass', function() {
-      return gulp.src('./source/styles/styles.sass')
+      return gulp.src('./source/styles/styles.scss')
               .pipe(sourcemaps.init())
-              .pipe(sass(outputStyle: 'expanded').on('error', function() {
-                console.log('There was an error processing the sass');
+              .pipe(sass({outputStyle: 'expanded'}).on('error', function(e) {
+                console.log('There was an error processing the sass' + e);
               }))
               .pipe(sourcemaps.write())
-              .pipe(gulp.dest('./build/styles/styles.css'));
+              .pipe(gulp.dest('./build/styles'));
     });
 
     gulp.task('watch', function() {

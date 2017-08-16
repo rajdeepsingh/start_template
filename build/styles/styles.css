@@ -1,0 +1,14 @@
+.squares {
+  width: 100px;
+  height: 100px;
+  background: crimson;
+}
+
+.circles {
+  width: 100px;
+  height: 100px;
+  background: orangered;
+  border-radius: 50%;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoic3R5bGVzLmNzcyIsInNvdXJjZXMiOlsic3R5bGVzLnNjc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLnNxdWFyZXMge1xyXG4gIHdpZHRoOiAxMDBweDtcclxuICBoZWlnaHQ6IDEwMHB4O1xyXG4gIGNvbG9yOiBjcmltc29uO1xyXG59XHJcblxyXG4uY2lyY2xlcyB7XHJcbiAgd2lkdGg6IDEwMHB4O1xyXG4gIGhlaWdodDogMTAwcHg7XHJcbiAgY29sb3I6IG9yYW5nZXJlZDtcclxuICBib3JkZXItcmFkaXVzOiA1MCU7XHJcbn1cclxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLEFBQUEsUUFBUSxDQUFDO0VBQ1AsS0FBSyxFQUFFLEtBQUs7RUFDWixNQUFNLEVBQUUsS0FBSztFQUNiLEtBQUssRUFBRSxPQUFPO0NBQ2Y7O0FBRUQsQUFBQSxRQUFRLENBQUM7RUFDUCxLQUFLLEVBQUUsS0FBSztFQUNaLE1BQU0sRUFBRSxLQUFLO0VBQ2IsS0FBSyxFQUFFLFNBQVM7RUFDaEIsYUFBYSxFQUFFLEdBQUc7Q0FDbkIifQ== */
