@@ -1,16 +1,17 @@
 {
-  "name": "project1",
+  "name": "mstool",
   "version": "1.0.0",
-  "description": "Mukha Cleaning",
-  "main": "gulpfile.js",
+  "description": "",
+  "main": "index.js",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.0",
     "gulp-webserver": "^0.9.1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git?"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Rajdeep Singh",
   "license": "ISC"
